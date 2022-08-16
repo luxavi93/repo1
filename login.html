@@ -13,15 +13,25 @@
     body {
       background-color: rgb(248, 249, 250);
     }
+    .img{
+      padding-top: 50%;
+    }
   </style>
 </head>
 
 <body>
   <main class="mt-5">
     <div class="container">
-      <div class="alert alert-danger text-center" role="alert">
-        <h4 class="alert-heading">Funcionalidad en desarrollo</h4>
-      </div>
+      <img src="img/login.png">
+      <form>  
+        <div class="container">   
+            <label>Email </label>   
+            <input type="text" placeholder="Email" name="username" required>  
+            <label>Contraseña </label>   
+            <input type="password" placeholder="Contraseña" name="password" required>  
+            <button type="submit">Login</button>    
+        </div>   
+    </form>    
     </div>
   </main>
   <footer class="text-muted">
